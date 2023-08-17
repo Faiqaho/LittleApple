@@ -38,7 +38,7 @@ struct IcnaPasiaMoreInfo: View {
                         Image ("pasiaOne")
                             .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
-                            .padding(-25.0)
+                            .padding(-38.0)
                             .frame(width: 130.0)
                         Spacer()
                             .padding(-2.0)
@@ -48,7 +48,7 @@ struct IcnaPasiaMoreInfo: View {
                             .renderingMode(.original)
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
-                            .padding(-25.0)
+                            .padding(-39.0)
                             .frame(width: 130.0)
                         
                     }
@@ -65,20 +65,40 @@ struct IcnaPasiaMoreInfo: View {
                             .frame(width: 130.0)
                         
                         
-                            .padding(20.02)
+                            .padding(11.02)
                         
                         Image ("pasiaFour")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
+                            .padding(0.0)
                             .frame(width: 130.0)
+                    }
                         VStack{
                             
                         }
                         
-                    }
-                    Spacer()
+                        
+                        Spacer()
+                        
+                        
+                        HStack {
+                            Spacer()
+                            Text("♿︎")
+                                .font(.title)
+                                .padding(.leading, -40.0)
+                                Spacer()
+                            Text("🌏")
+                                .padding(.trailing, 55.0)
+                            Spacer()
+                            Text("📞")
+                                .padding(.trailing, 45.0)
                     
+                        }
+                    
+                   
                     VStack {
+                        
+                        
                         
                         Text("Description: This is a Colombian Peruvian restaurant that has taken over the former Venezuelan Arepas Cafe at the shopping plaza on 21st Street and Broadway In Astoria. The menu mainly consists of traditional plates. Examples would be Colombian bandeja paisa or the Peruvian causa de pollo.")
                             .font(.body)
